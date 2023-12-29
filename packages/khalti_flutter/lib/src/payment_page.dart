@@ -168,7 +168,9 @@ class _MainPage extends StatelessWidget {
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          foregroundColor: Colors.white, minimumSize: const Size(64, 50),
+          foregroundColor: Colors.white,
+          backgroundColor: Colors.deepPurple,
+          minimumSize: const Size(64, 50),
         ),
       ),
     );
